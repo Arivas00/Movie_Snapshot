@@ -1,5 +1,128 @@
 /* CSS */
 .i{
     float: center;
+}
+nav {
+    background-color: rgba(3, 3, 54, 0.918);
+    color: white;
+  }
+  
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1 0 auto;
+  }
+  
+  h1,
+  nav {
+    font-weight: 600;
+  }
+  
+  h1 {
+    margin-top: 75px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  img {
+    height: 100%;
+  }
+  
+  audio {
+    margin-top: 28px;
+  }
+   
+   #filmLogo {
+    color: white;
+  }
 
+  #filmLogo:hover {
+    color:rgb(97, 97, 119);
+  }   
+  
+  .sidenav {
+    width: 200px;
+  }
+  
+  .active {
+    text-decoration: underline;
+  }
+  
+  .no-shadows {
+    box-shadow: none !important;
+  }
+  
+  .descriptiondiv {
+    margin-top: 10px;
+  }
+  
+  .popcorndiv {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .popcorn {
+    width: 225px;
+  }
+  
+  .searchmovieBtn {
+      background-color:rgba(3, 3, 54, 0.918);
+      color: white
+  }
+  .searchmovieBtn :hover {
+    background-color: white;
+    color: black
+}
+    
+  .page-footer {
+    background-color: transparent;
+    color: black;
+    font-family: "Prompt", sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .aboutH1 {
+    margin-bottom: 40px;
+  }
+  
+  .help-tag {
+    font-family: "Prompt", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 55px;
+  }
+  
+  #askwinstonlogo {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  
+
+#imgShannon {
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+#imgAlex {
+    border-radius: 50%;
+    text-align: center;
+}
+
+#imgVanesa {
+    border-radius: 50%;
+    vertical-align: middle;
 }
