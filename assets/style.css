@@ -1,3 +1,7 @@
+/* CSS */
+.i{
+    float: center;
+}
 nav {
     background-color: rgba(3, 3, 54, 0.918);
     color: white;
@@ -42,8 +46,9 @@ nav {
    
    #filmLogo {
     color: white;
+    size: 50px;
   }
-
+    
   #filmLogo:hover {
     color:rgb(97, 97, 119);
   }   
