@@ -1,1 +1,16 @@
 /* CSS */
+
+#imgShannon {
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+#imgAlex {
+    border-radius: 50%;
+    text-align: center;
+}
+
+#imgVanesa {
+    border-radius: 50%;
+    vertical-align: middle;
+}
