@@ -46,8 +46,9 @@ nav {
    
    #filmLogo {
     color: white;
+    size: 50px;
   }
-
+    
   #filmLogo:hover {
     color:rgb(97, 97, 119);
   }   
