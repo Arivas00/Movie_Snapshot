@@ -67,16 +67,23 @@ nav {
   }
   
 #imgShannon {
-    border-radius: 50%;
-    vertical-align: middle;
+  margin-top: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
 }
 
 #imgAlex {
-    border-radius: 50%;
-    text-align: center;
+  margin-top: 40px;
+  border-radius: 50%;
+  text-align: center;
 }
 
 #imgVanesa {
-    border-radius: 50%;
-    vertical-align: middle;
+  margin-top: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+a { 
+  color: inherit; 
 }
