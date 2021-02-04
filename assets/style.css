@@ -87,3 +87,8 @@ nav {
 a { 
   color: inherit; 
 }
+
+p{
+  position: fixed;
+  color: black;
+}
