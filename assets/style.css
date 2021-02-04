@@ -79,22 +79,6 @@ nav {
 }
 
 #imgVanesa {
-<<<<<<< HEAD
-    border-radius: 50%;
-    vertical-align: middle;
-}
-
-.fa-envelope {
-  color: rgb(97, 97, 119);
-}
-
-.fa-envelope:hover {
-  color:rgba(3, 3, 54, 0.918)
-}
-
-.contact-info {
-  align-items: center;
-=======
   margin-top: 40px;
   border-radius: 50%;
   vertical-align: middle;
@@ -102,5 +86,12 @@ nav {
 
 a { 
   color: inherit; 
->>>>>>> main
+}
+
+.fa-envelope {
+  color:rgb(97, 97, 119)
+}
+
+.fa-envelope:hover {
+  color:rgba(3, 3, 54, 0.918)
 }
