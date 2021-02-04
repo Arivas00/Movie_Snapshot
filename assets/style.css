@@ -80,3 +80,15 @@ nav {
     border-radius: 50%;
     vertical-align: middle;
 }
+
+.fa-envelope {
+  color: rgb(97, 97, 119);
+}
+
+.fa-envelope:hover {
+  color:rgba(3, 3, 54, 0.918)
+}
+
+.contact-info {
+  align-items: center;
+}
