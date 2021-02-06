@@ -19,8 +19,8 @@
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
         <ul class="left hide-on-med-and-down">
           <li><a href="index.html">HOME</a></li>
-          <li><a href="./assets/about.html">ABOUT</a></li>
-          <li><a href="./assets/contact.html">CONTACT</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
         </ul>
       </div>
     </nav>
@@ -43,17 +43,19 @@
               </span>
           </div>
         </div>
-        <div class="row" id="poster">
+        <div class="row">
           <div class="col s12 m5">
             <div class="card-panel">
-              <span class="black-text">Poster for Movie Searched
-              </span>
+              <img id="poster"/>
             </div>
           </div>
           <div class="col s12 m5" id="OMDB-results">
             <div class="card-panel">
-              <span class="black-text"> year director etc
-              </span>
+              <div id="year"></div>
+              <div id="director"></div>
+              <div id="actors"></div>
+              <div id="genre"></div>
+              <div id="score"></div>
             </div>
           </div>
         </div>
@@ -70,4 +72,5 @@
         <script src="https://code.jquery.com/jquery-3.5.1.js"
           integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
         <script src="./assets/script.js"></script>
+        <script src="./assets/results.js"></script>
 </body>
