@@ -1,4 +1,6 @@
 // Javascript
+<<<<<<< HEAD
+=======
 $(document).ready(function () {
 
 //OMDB key
@@ -48,3 +50,4 @@ $("#searchBtn").on('click', function (e) {
     //$('.materialboxed').materialbox();
 });
 
+>>>>>>> main
