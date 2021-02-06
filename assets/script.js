@@ -1,6 +1,4 @@
 // Javascript
-<<<<<<< HEAD
-=======
 $(document).ready(function () {
 
     //OMDB key
@@ -14,7 +12,8 @@ $(document).ready(function () {
         var searchValue = $("#searchBar").val()
         localStorage.setItem(key, searchValue)
         var movie = localStorage.getItem(key)
-        console.log(omdbData + search + movie)
+
+
         var OMDBFetch = function () {
             fetch(omdbData + search + movie)
                 .then(function (response) {
@@ -22,10 +21,8 @@ $(document).ready(function () {
                 })
                 .then(function (data) {
                     console.log(data);
+                    localStorage.setItem("results", JSON.stringify(data))
                     window.location.href = "results.html"
-                    //$("#movie-search").text(data.Title)
-                    //$("#OMDB-results").text(data.Year, data.Director, data.Actors, data.Genre, data.Ratings[1].Source, data.Ratings[1].Value)
-                    //$("#poster").attr("src", data.Poster)
                 })
 
         }
@@ -39,4 +36,3 @@ $(document).ready(function () {
     //$('.materialboxed').materialbox();
 });
 
->>>>>>> main
