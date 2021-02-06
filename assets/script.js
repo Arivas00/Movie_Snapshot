@@ -1,4 +1,6 @@
 // Javascript
+<<<<<<< HEAD
+=======
 $(document).ready(function () {
 
     //OMDB key
@@ -37,3 +39,4 @@ $(document).ready(function () {
     //$('.materialboxed').materialbox();
 });
 
+>>>>>>> main
