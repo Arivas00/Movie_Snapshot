@@ -87,3 +87,16 @@ nav {
 a { 
   color: inherit; 
 }
+
+p{
+  position: fixed;
+  color: black;
+}
+.fa-envelope {
+  color:rgb(97, 97, 119)
+}
+
+.fa-envelope:hover {
+  color:rgba(3, 3, 54, 0.918)
+
+}
