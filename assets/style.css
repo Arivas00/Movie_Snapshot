@@ -1,4 +1,8 @@
 /* CSS */
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .i{
     float: center;
 }
@@ -48,10 +52,9 @@ nav {
     font-size: medium;
    }
   
-  .searchmovieBtn {
-    background-color:rgba(3, 3, 54, 0.918);
-    color: white
-  }
+   #searchBtn {
+         background-color: rgba(3, 3, 54, 0.918);
+   }
   
   .searchmovieBtn :hover {
     background-color: white;
@@ -99,4 +102,23 @@ p{
 .fa-envelope:hover {
   color:rgba(3, 3, 54, 0.918)
 
+}
+
+
+.banner
+{
+    max-width: 100%;
+    height: auto;
+}
+
+#movieList {
+  font-weight:bold;
+}
+
+#movie-search {
+  font-size: xx-large;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: rgba(3, 3, 54, 0.918);
+  color:white;
 }
