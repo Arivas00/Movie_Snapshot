@@ -48,10 +48,9 @@ nav {
     font-size: medium;
    }
   
-  .searchmovieBtn {
-    background-color:rgba(3, 3, 54, 0.918);
-    color: white
-  }
+   #searchBtn {
+         background-color: rgba(3, 3, 54, 0.918);
+   }
   
   .searchmovieBtn :hover {
     background-color: white;
@@ -99,4 +98,32 @@ p{
 .fa-envelope:hover {
   color:rgba(3, 3, 54, 0.918)
 
+}
+
+.help-tag {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 55px;
+}
+
+.banner
+{
+    max-width: 100%;
+    height: auto;
+}
+
+#movieList {
+  font-weight:bold;
+}
+
+#movie-search {
+  font-size: xx-large;
+  font-weight: bold;
+  text-decoration: underline
+}
+
+@media screen and (max-width: 600px) {
+  .col {
+    width: 100%;
+  }
 }

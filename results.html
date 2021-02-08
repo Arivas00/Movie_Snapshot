@@ -35,22 +35,22 @@
       <div class="searchInfo center-align">
         <div class="row">
           <h1 id="mslogo">MOVIE SNAPSHOT</h1>
-          <h2 class="descriptiondiv">movie reviews, synopsis & trailers</h2>
         </div>
         <div class="row" id="movie-search">
-            <div class="card-panel">
-              <span class="black-text">name of movie searched goes here from local storage
-              </span>
+          <div class="card-panel">
+            <span class="black-text">
+            </span>
           </div>
         </div>
         <div class="row">
-          <div class="col s12 m5">
-            <div class="card-panel">
-              <img id="poster"/>
+          <div class="col s6 m5">
+            <div class="poster">
+              <img id="poster" />
             </div>
           </div>
-          <div class="col s12 m5" id="OMDB-results">
-            <div class="card-panel">
+          <div class="col s6 m5" id="OMDB-results">
+            <div class="row">
+            <div class="OMDB left-align" id="movieList">
               <div id="year"></div>
               <div id="director"></div>
               <div id="actors"></div>
@@ -59,18 +59,18 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col s12 m5" id="video">
-            <div class="card-panel">
-              <span class="black-text"> youtube trailer searched
-              </span>
-            </div>
-          </div>
         </div>
+      <div class="row">
+        <div class="VIDEO" id="video">
+          <span class="black-text"> NANNY
+          </span>
+        </div>
+      </div>
+    </div>
 
 
-        <script src="https://code.jquery.com/jquery-3.5.1.js"
-          integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-        <script src="./assets/script.js"></script>
-        <script src="./assets/results.js"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+      <script src="./assets/script.js"></script>
+      <script src="./assets/results.js"></script>
 </body>
