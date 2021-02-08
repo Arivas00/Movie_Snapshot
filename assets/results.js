@@ -23,10 +23,4 @@ $(document).ready(function () {
                     window.location.href = "results.html"
                 })
 
-<<<<<<< HEAD
-    console.log(omdbObject)
 });
-
-=======
-});
->>>>>>> main

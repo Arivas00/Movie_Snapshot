@@ -1,4 +1,8 @@
 /* CSS */
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .i{
     float: center;
 }
@@ -100,11 +104,6 @@ p{
 
 }
 
-.help-tag {
-  font-weight: 300;
-  font-size: 20px;
-  margin-bottom: 55px;
-}
 
 .banner
 {
@@ -119,11 +118,7 @@ p{
 #movie-search {
   font-size: xx-large;
   font-weight: bold;
-  text-decoration: underline
-}
-
-@media screen and (max-width: 600px) {
-  .col {
-    width: 100%;
-  }
+  text-decoration: underline;
+  background-color: rgba(3, 3, 54, 0.918);
+  color:white;
 }
