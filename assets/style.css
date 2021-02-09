@@ -1,4 +1,5 @@
 /* CSS */
+
 body {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -91,19 +92,23 @@ a {
   color: inherit; 
 }
 
-p{
-  position: fixed;
-  color: black;
-}
+
+
 .fa-envelope {
-  color:rgb(97, 97, 119)
-}
+  color:rgb(97, 97, 119);
+  }
+.fa-github{
+  color:rgb(97, 97, 119);
+ }
 
 .fa-envelope:hover {
   color:rgba(3, 3, 54, 0.918)
 
 }
+.fa-github:hover {
+  color:rgba(3, 3, 54, 0.918)
 
+}
 
 .banner
 {
@@ -121,4 +126,29 @@ p{
   text-decoration: underline;
   background-color: rgba(3, 3, 54, 0.918);
   color:white;
+}
+
+#meetTeamBtn {
+  margin-bottom: 15px;
+  background-color: rgba(3, 3, 54, 0.918);
+}
+
+#Shan:hover,
+#Alex:hover,
+#Van:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+#Shan,
+#Alex,
+#Van {
+  transition: transform 0.5s ease;
+}
+
+#ShannonAbout,
+#AlexAbout,
+#VanesaAbout {
+  font-size: 18px;
 }
