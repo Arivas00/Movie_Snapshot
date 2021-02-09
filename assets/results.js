@@ -8,16 +8,6 @@ $(document).ready(function () {
     var search = "t="
     var key = "searchBar"
     var movie = localStorage.getItem(key)
-    var omdbObject = JSON.parse(localStorage.getItem("results"));
-
-    $("#movie-search").text(omdbObject.Title)
-    $("#year").text("Year: " + omdbObject.Year)
-    $("#director").text("Director: " + omdbObject.Director)
-    $("#actors").text("Actors: " + omdbObject.Actors)
-    $("#genre").text("Genre: " + omdbObject.Genre)
-    $("#score").text("Rotten Tomatoes: " + omdbObject.Ratings[1].Value)
-    $("#poster").attr("src", omdbObject.Poster)
-    $("#ytplayer").attr("src",)
 
     //Youtube API fetch
     // fetch(omdbData + search + youtubeAPIkey)
@@ -29,6 +19,7 @@ $(document).ready(function () {
     //         localStorage.setItem("results", JSON.stringify(data))
     //     })
 
+    
     // OMDB API Fetch
     var OMDBFetch = function () {
         fetch(omdbData + search + movie)
@@ -38,8 +29,16 @@ $(document).ready(function () {
             .then(function (data) {
                 //console.log(data);
                 localStorage.setItem("results", JSON.stringify(data))
-            })
+                var omdbObject = JSON.parse(localStorage.getItem("results"));
 
+                $("#movie-search").text(omdbObject.Title)
+                $("#year").text("Year: " + omdbObject.Year)
+                $("#director").text("Director: " + omdbObject.Director)
+                $("#actors").text("Actors: " + omdbObject.Actors)
+                $("#genre").text("Genre: " + omdbObject.Genre)
+                $("#score").text("Rotten Tomatoes: " + omdbObject.Ratings[1].Value)
+                $("#poster").attr("src", omdbObject.Poster)
+            })
     }
 
     OMDBFetch()
