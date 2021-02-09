@@ -3,7 +3,7 @@ $(document).ready(function () {
     //var youtubeAPIkey = "AIzaSyBLBL6GzSvQz5PJ_gEJ9zUR0qWMn-XiIgM"
 
     //OMDB API key
-    var omdbData = "http://www.omdbapi.com/?apikey=7af33c3a&"
+    var omdbData = "https://www.omdbapi.com/?apikey=7af33c3a&"
 
     var search = "t="
     var key = "searchBar"
