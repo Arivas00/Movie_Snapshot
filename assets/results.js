@@ -1,6 +1,7 @@
 $(document).ready(function () {
     //Youtube API key
-    //var youtubeAPIkey = "AIzaSyBLBL6GzSvQz5PJ_gEJ9zUR0qWMn-XiIgM"
+    var youtubeAPIkey = "key=AIzaSyCMvE-VUEEYNHxbUoztY10VOOcSJYDCG90"
+    var trailer = "trailer"
 
     //OMDB API key
     var omdbData = "https://www.omdbapi.com/?apikey=7af33c3a&"
@@ -43,24 +44,13 @@ $(document).ready(function () {
 
     OMDBFetch()
     var youtube = function () {
-        fetch("https://youtube.googleapis.com/youtube/v3/search?part=snippet%20&q={}&videoDuration=any&key=AIzaSyCMvE-VUEEYNHxbUoztY10VOOcSJYDCG90")
+        fetch("https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=" + movie + " " + trailer + "&type=video&" + youtubeAPIkey)
             .then(function (response) {
                 return response.json();
             })
             .then(function (result) {
                 console.log(result)
-                document.getElementById("ytplayer").innerHTML=` 
-                <div class="row">
-                <div class="col s12 m5" id="video">
-                  <div class="VIDEO">
-                    <iframe id="ytplayer" type="text/html" width="640" height="360"
-                      src="https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com"
-                      frameborder="0"></iframe>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>`
+                $("#ytplayer").attr("src", "https://www.youtube.com/embed/" + result.items[0].id.videoId)
             });
         }
         youtube()
