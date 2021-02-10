@@ -6,6 +6,7 @@ function showShannonAbout() {
     $("#ShannonPic").addClass("col s12");
     $("button").removeClass("hide");
     $("h2").addClass("hide");
+    $("#ShannonGithub").removeClass("hide")
   }
   
   function showAlexAbout() {
@@ -16,6 +17,7 @@ function showShannonAbout() {
     $("#AlexPic").addClass("col s12");
     $("button").removeClass("hide");
     $("h2").addClass("hide");
+    $("#AlexGithub").removeClass("hide")
   }
   
   function showVanesaAbout() {
@@ -26,6 +28,7 @@ function showShannonAbout() {
     $("#VanesaPic").addClass("col s12");
     $("button").removeClass("hide");
     $("h2").addClass("hide");
+    $("#VanesaGithub").removeClass("hide")
   }
   
   function GangsAllHere() {
@@ -43,6 +46,11 @@ function showShannonAbout() {
     $("#ShannonAbout").addClass("hide");
     $("#AlexAbout").addClass("hide");
     $("#VanesaAbout").addClass("hide");
+
+    $("#ShannonGithub").addClass("hide")
+    $("#AlexGithub").addClass("hide")
+    $("#VanesaGithub").addClass("hide")
+
   
     $("button").addClass("hide");
   
