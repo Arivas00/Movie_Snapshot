@@ -16,8 +16,8 @@ Project 1 - Group Apples
 -This allows user to email us directly throught their email.
 
 # Technologies used/ APIS
-[https://developers.google.com/youtube/v3/docs/playlists/list]
-[https://rapidapi.com/blog/how-to-use-imdb-api/?utm_source=google&utm_medium=cpc&utm_campaign=Alpha&utm_term=imdb%20api_e&gclid=Cj0KCQiAgomBBhDXARIsAFNyUqOrFWv4124VMBuj7maKrH_uM1ecwNnhpjfshNCytgAc3wrlPAGIUoYaAnqMEALw_wcB]
+* [https://developers.google.com/youtube/v3/docs/playlists/list]
+* [https://www.omdbapi.com/]
 
 
 # Credit 
@@ -33,7 +33,12 @@ Alex Chisar, Shannon Alexander, and Vanesa Gonzalez
 [https://www.youtube.com/watch?v=TE66McLMMEw&t=302s&ab_channel=AnsontheDeveloper]
 
 # Mock up & Screen shots
-[https://drive.google.com/file/d/1hMtULu7plaZH1u9pdfDBFmwx6x1xy76E/view]
+* [https://drive.google.com/file/d/1hMtULu7plaZH1u9pdfDBFmwx6x1xy76E/view]
+
+![Search Page](./assets/Pictures/Search_page.png)
+![Results Page](./assets/Pictures/Results_page.png)
+![About Page](./assets/Pictures/About_page.png)
+![Contact Page](./assets/Pictures/Contact_page.png)
 
 
 
