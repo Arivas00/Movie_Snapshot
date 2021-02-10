@@ -27,7 +27,7 @@ Alex Chisar, Shannon Alexander, and Vanesa Gonzalez
 # Github link 
 [https://github.com/sa605935/Movie_Snapshot]
 # URL
-[sa605935.github.io/movie_snapshot/]
+[https://sa605935.github.io/Movie_Snapshot/index.html]
 
 # Tutorials/ Resources
 [https://www.youtube.com/watch?v=TE66McLMMEw&t=302s&ab_channel=AnsontheDeveloper]
@@ -39,6 +39,10 @@ Alex Chisar, Shannon Alexander, and Vanesa Gonzalez
 ![Results Page](./assets/Pictures/Results_page.png)
 ![About Page](./assets/Pictures/About_page.png)
 ![Contact Page](./assets/Pictures/Contact_page.png)
+
+# Presentation
+
+[./assets/Movie_Snapshot_Search_Engine_Project.pdf]
 
 
 
